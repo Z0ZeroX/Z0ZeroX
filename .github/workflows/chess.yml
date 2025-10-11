@@ -406,15 +406,18 @@ jobs:
 
             Ask a friend to take the next move: [Share on Twitter...](https://twitter.com/share?text=I'm+playing+chess+on+a+GitHub+Profile+Readme!+Can+you+please+take+the+next+move+at+https://github.com/Z0ZeroX)
 
-            **How this works**
+            <details>
+              <summary>How this works</summary>
 
             When you click a link, it opens a GitHub Issue with the required pre-populated text. Just push "Create New Issue". That will trigger a [GitHub Actions](https://github.blog/2020-07-03-github-action-hero-casey-lee/#getting-started-with-github-actions) workflow that'll update my GitHub Profile _README.md_ with the new state of the board.
+            </details>
 
             **Notice a problem?**
 
             Raise an [issue](https://github.com/#{ENV.fetch('REPOSITORY')}/issues), and include the text _cc @Z0ZeroX_.
 
-            **Last few moves, this game**
+            <details>
+              <summary>Last 5 moves in this game</summary>
 
             | Move  | Who |
             | ----- | --- |
@@ -436,8 +439,10 @@ jobs:
           end
 
           new_readme.concat <<~HTML
+            </details>
 
-            **Top 20 Leaderboard: Most moves across all games, except me.**
+            <details>
+              <summary>Top 20 Leaderboard: Most moves across all games.</summary>
 
             | Moves | Who |
             | ----- | --- |
@@ -459,6 +464,7 @@ jobs:
           end
 
           new_readme.concat <<~HTML
+            </details>
 
               ---
 
