@@ -230,12 +230,12 @@ jobs:
                 unless user_found
                   leaderboard_lines << "| 1 | [@#{user_login}](https://github.com/#{user_login}) |"
                 end
-                
-                # Sort by count (descending) and keep top 20
+
+                # Sort by count (descending) and keep top 10
                 sorted_lines = leaderboard_lines.sort_by do |line|
                   match = line.match(/\| (\d+) \|/)
                   match ? -match[1].to_i : 0
-                end.compact[0..19]
+                end.compact[0..9]
                 
                 File.write(leaderboard_file, sorted_lines.join("\n") + "\n")
                 
@@ -442,7 +442,7 @@ jobs:
             </details>
 
             <details>
-              <summary>Top 20 Leaderboard: Most moves across all games.</summary>
+              <summary>Top 10 Leaderboard: Most moves across all games.</summary>
 
             | Moves | Who |
             | ----- | --- |
@@ -492,8 +492,8 @@ jobs:
 
           # Atomic commit: add all changes and push in single operation
           begin
-            system('git config --global user.email "action@github.com"')
-            system('git config --global user.name "GitHub Action"')
+            system('git config --global user.email "github-actions[bot]@users.noreply.github.com"')
+            system('git config --global user.name "github-actions[bot]"')
             system('git add .')
             commit_message = if CHESS_GAME_CMD == 'move'
                               "#{ENV.fetch('EVENT_USER_LOGIN')} move #{CHESS_USER_MOVE}"
