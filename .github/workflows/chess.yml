@@ -189,7 +189,7 @@ jobs:
                 
                 # Update recent moves list
                 recent_moves_file = "chess_games/recent_moves.txt"
-                new_move = "| `#{CHESS_USER_MOVE[0..1].upcase}` to `#{CHESS_USER_MOVE[2..3].upcase}` | [@#{ENV.fetch('EVENT_USER_LOGIN')}](https://github.com/#{ENV.fetch('EVENT_USER_LOGIN')}) |"
+                new_move = "| #{CHESS_USER_MOVE[0..1].upcase} to #{CHESS_USER_MOVE[2..3].upcase} | [@#{ENV.fetch('EVENT_USER_LOGIN')}](https://github.com/#{ENV.fetch('EVENT_USER_LOGIN')}) |"
 
                 # Read existing moves, add new one at top, keep only last 5
                 existing_moves = []
