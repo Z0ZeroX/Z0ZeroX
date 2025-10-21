@@ -12,13 +12,34 @@
 **Game is in progress.** This is open to ANYONE to play the next move. That's the point. :wave:  It's your turn! 
 
 <!-- BEGIN CHESS BOARD -->
-
+|   | A | B | C | D | E | F | G | H |   |
+|---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| **8** | <img src="assets/chess/r.png" width=50px> | <img src="assets/chess/n.png" width=50px> | <img src="assets/chess/b.png" width=50px> | <img src="assets/chess/q.png" width=50px> | <img src="assets/chess/k.png" width=50px> | <img src="assets/chess/b.png" width=50px> | <img src="assets/chess/n.png" width=50px> | <img src="assets/chess/r.png" width=50px> | **8** |
+| **7** | <img src="assets/chess/p.png" width=50px> | <img src="assets/chess/p.png" width=50px> | <img src="assets/chess/p.png" width=50px> | <img src="assets/chess/p.png" width=50px> | <img src="assets/chess/p.png" width=50px> | <img src="assets/chess/p.png" width=50px> | <img src="assets/chess/p.png" width=50px> | <img src="assets/chess/p.png" width=50px> | **7** |
+| **6** | <img src="assets/blank.png" width=50px> | <img src="assets/blank.png" width=50px> | <img src="assets/blank.png" width=50px> | <img src="assets/blank.png" width=50px> | <img src="assets/blank.png" width=50px> | <img src="assets/blank.png" width=50px> | <img src="assets/blank.png" width=50px> | <img src="assets/blank.png" width=50px> | **6** |
+| **5** | <img src="assets/blank.png" width=50px> | <img src="assets/blank.png" width=50px> | <img src="assets/blank.png" width=50px> | <img src="assets/blank.png" width=50px> | <img src="assets/blank.png" width=50px> | <img src="assets/blank.png" width=50px> | <img src="assets/blank.png" width=50px> | <img src="assets/blank.png" width=50px> | **5** |
+| **4** | <img src="assets/blank.png" width=50px> | <img src="assets/blank.png" width=50px> | <img src="assets/blank.png" width=50px> | <img src="assets/blank.png" width=50px> | <img src="assets/blank.png" width=50px> | <img src="assets/blank.png" width=50px> | <img src="assets/blank.png" width=50px> | <img src="assets/blank.png" width=50px> | **4** |
+| **3** | <img src="assets/blank.png" width=50px> | <img src="assets/blank.png" width=50px> | <img src="assets/blank.png" width=50px> | <img src="assets/blank.png" width=50px> | <img src="assets/blank.png" width=50px> | <img src="assets/blank.png" width=50px> | <img src="assets/blank.png" width=50px> | <img src="assets/blank.png" width=50px> | **3** |
+| **2** | <img src="assets/chess/P.png" width=50px> | <img src="assets/chess/P.png" width=50px> | <img src="assets/chess/P.png" width=50px> | <img src="assets/chess/P.png" width=50px> | <img src="assets/chess/P.png" width=50px> | <img src="assets/chess/P.png" width=50px> | <img src="assets/chess/P.png" width=50px> | <img src="assets/chess/P.png" width=50px> | **2** |
+| **1** | <img src="assets/chess/R.png" width=50px> | <img src="assets/chess/N.png" width=50px> | <img src="assets/chess/B.png" width=50px> | <img src="assets/chess/Q.png" width=50px> | <img src="assets/chess/K.png" width=50px> | <img src="assets/chess/B.png" width=50px> | <img src="assets/chess/N.png" width=50px> | <img src="assets/chess/R.png" width=50px> | **1** |
+|   | **A** | **B** | **C** | **D** | **E** | **F** | **G** | **H** |   |
 <!-- END CHESS BOARD -->
 
-**<!-- BEGIN TURN -->white<!-- END TURN --> (solid): It's your turn to move! Choose one from the following table:**
+**<!-- BEGIN TURN -->WHITE<!-- END TURN --> (solid): It's your turn to move! Choose one from the following table:**
 
 <!-- BEGIN MOVES LIST -->
-
+|  FROM  | TO (Just click a link!) |
+| :----: | :---------------------- |
+| **A2** | [A3](https://github.com/Z0ZeroX/Z0ZeroX/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+A2+to+A3), [A4](https://github.com/Z0ZeroX/Z0ZeroX/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+A2+to+A4) |
+| **B1** | [A3](https://github.com/Z0ZeroX/Z0ZeroX/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+B1+to+A3), [C3](https://github.com/Z0ZeroX/Z0ZeroX/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+B1+to+C3) |
+| **B2** | [B3](https://github.com/Z0ZeroX/Z0ZeroX/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+B2+to+B3), [B4](https://github.com/Z0ZeroX/Z0ZeroX/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+B2+to+B4) |
+| **C2** | [C3](https://github.com/Z0ZeroX/Z0ZeroX/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+C2+to+C3), [C4](https://github.com/Z0ZeroX/Z0ZeroX/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+C2+to+C4) |
+| **D2** | [D3](https://github.com/Z0ZeroX/Z0ZeroX/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+D2+to+D3), [D4](https://github.com/Z0ZeroX/Z0ZeroX/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+D2+to+D4) |
+| **E2** | [E3](https://github.com/Z0ZeroX/Z0ZeroX/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+E2+to+E3), [E4](https://github.com/Z0ZeroX/Z0ZeroX/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+E2+to+E4) |
+| **F2** | [F3](https://github.com/Z0ZeroX/Z0ZeroX/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+F2+to+F3), [F4](https://github.com/Z0ZeroX/Z0ZeroX/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+F2+to+F4) |
+| **G1** | [F3](https://github.com/Z0ZeroX/Z0ZeroX/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+G1+to+F3), [H3](https://github.com/Z0ZeroX/Z0ZeroX/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+G1+to+H3) |
+| **G2** | [G3](https://github.com/Z0ZeroX/Z0ZeroX/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+G2+to+G3), [G4](https://github.com/Z0ZeroX/Z0ZeroX/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+G2+to+G4) |
+| **H2** | [H3](https://github.com/Z0ZeroX/Z0ZeroX/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+H2+to+H3), [H4](https://github.com/Z0ZeroX/Z0ZeroX/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+H2+to+H4) |
 <!-- END MOVES LIST -->
 
 Ask a friend to take the next move: [Share on Twitter...](https://twitter.com/share?text=I'm+playing+chess+on+a+GitHub+Profile+Readme!+Can+you+please+take+the+next+move+at+https://github.com/Z0ZeroX)
@@ -42,6 +63,10 @@ Raise an [issue](https://github.com/Z0ZeroX/Z0ZeroX/issues), and include the tex
 
 <!-- BEGIN LAST MOVES -->
 
+| Move | Author |
+| :--: | :----- |
+| `Start game` | [ @Z0ZeroX](https://github.com/Z0ZeroX) |
+
 <!-- END LAST MOVES -->
 </details>
 
@@ -49,6 +74,9 @@ Raise an [issue](https://github.com/Z0ZeroX/Z0ZeroX/issues), and include the tex
   <summary><b>Top 10 Leaderboard: Most moves across all games:</b></summary>
 
 <!-- BEGIN TOP MOVES -->
+
+| Total moves |  User  |
+| :---------: | :----- |
 
 <!-- END TOP MOVES -->
 </details>
