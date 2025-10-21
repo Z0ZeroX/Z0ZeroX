@@ -1,0 +1,10 @@
+**/.DS_Store
+src/__pycache__/*
+*.pyc
+__pycache__/
+.env
+.vscode/
+.idea/
+*.log
+temp/
+tmp/

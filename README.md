@@ -9,41 +9,26 @@
 
 ## ZenT's Community Chess Tournament
 
-**Game is in progress.** This is open to ANYONE to play the next move. That's the point. :wave:  It's your turn! Move a black (solid) piece.
+**Game is in progress.** This is open to ANYONE to play the next move. That's the point. :wave:  It's your turn! 
 
-|   | A | B | C | D | E | F | G | H |
-| - | - | - | - | - | - | - | - | - |
-| 8 | ![](https://raw.githubusercontent.com/Z0ZeroX/Z0ZeroX/master/chess_images/r.png) | ![](https://raw.githubusercontent.com/Z0ZeroX/Z0ZeroX/master/chess_images/n.png) | ![](https://raw.githubusercontent.com/Z0ZeroX/Z0ZeroX/master/chess_images/b.png) | ![](https://raw.githubusercontent.com/Z0ZeroX/Z0ZeroX/master/chess_images/q.png) | ![](https://raw.githubusercontent.com/Z0ZeroX/Z0ZeroX/master/chess_images/blank.png) | ![](https://raw.githubusercontent.com/Z0ZeroX/Z0ZeroX/master/chess_images/b.png) | ![](https://raw.githubusercontent.com/Z0ZeroX/Z0ZeroX/master/chess_images/n.png) | ![](https://raw.githubusercontent.com/Z0ZeroX/Z0ZeroX/master/chess_images/r.png) |
-| 7 | ![](https://raw.githubusercontent.com/Z0ZeroX/Z0ZeroX/master/chess_images/p.png) | ![](https://raw.githubusercontent.com/Z0ZeroX/Z0ZeroX/master/chess_images/blank.png) | ![](https://raw.githubusercontent.com/Z0ZeroX/Z0ZeroX/master/chess_images/blank.png) | ![](https://raw.githubusercontent.com/Z0ZeroX/Z0ZeroX/master/chess_images/blank.png) | ![](https://raw.githubusercontent.com/Z0ZeroX/Z0ZeroX/master/chess_images/blank.png) | ![](https://raw.githubusercontent.com/Z0ZeroX/Z0ZeroX/master/chess_images/k.png) | ![](https://raw.githubusercontent.com/Z0ZeroX/Z0ZeroX/master/chess_images/blank.png) | ![](https://raw.githubusercontent.com/Z0ZeroX/Z0ZeroX/master/chess_images/blank.png) |
-| 6 | ![](https://raw.githubusercontent.com/Z0ZeroX/Z0ZeroX/master/chess_images/blank.png) | ![](https://raw.githubusercontent.com/Z0ZeroX/Z0ZeroX/master/chess_images/p.png) | ![](https://raw.githubusercontent.com/Z0ZeroX/Z0ZeroX/master/chess_images/blank.png) | ![](https://raw.githubusercontent.com/Z0ZeroX/Z0ZeroX/master/chess_images/p.png) | ![](https://raw.githubusercontent.com/Z0ZeroX/Z0ZeroX/master/chess_images/blank.png) | ![](https://raw.githubusercontent.com/Z0ZeroX/Z0ZeroX/master/chess_images/blank.png) | ![](https://raw.githubusercontent.com/Z0ZeroX/Z0ZeroX/master/chess_images/p.png) | ![](https://raw.githubusercontent.com/Z0ZeroX/Z0ZeroX/master/chess_images/blank.png) |
-| 5 | ![](https://raw.githubusercontent.com/Z0ZeroX/Z0ZeroX/master/chess_images/blank.png) | ![](https://raw.githubusercontent.com/Z0ZeroX/Z0ZeroX/master/chess_images/blank.png) | ![](https://raw.githubusercontent.com/Z0ZeroX/Z0ZeroX/master/chess_images/p.png) | ![](https://raw.githubusercontent.com/Z0ZeroX/Z0ZeroX/master/chess_images/blank.png) | ![](https://raw.githubusercontent.com/Z0ZeroX/Z0ZeroX/master/chess_images/p.png) | ![](https://raw.githubusercontent.com/Z0ZeroX/Z0ZeroX/master/chess_images/blank.png) | ![](https://raw.githubusercontent.com/Z0ZeroX/Z0ZeroX/master/chess_images/blank.png) | ![](https://raw.githubusercontent.com/Z0ZeroX/Z0ZeroX/master/chess_images/p.png) |
-| 4 | ![](https://raw.githubusercontent.com/Z0ZeroX/Z0ZeroX/master/chess_images/blank.png) | ![](https://raw.githubusercontent.com/Z0ZeroX/Z0ZeroX/master/chess_images/blank.png) | ![](https://raw.githubusercontent.com/Z0ZeroX/Z0ZeroX/master/chess_images/blank.png) | ![](https://raw.githubusercontent.com/Z0ZeroX/Z0ZeroX/master/chess_images/blank.png) | ![](https://raw.githubusercontent.com/Z0ZeroX/Z0ZeroX/master/chess_images/P.png) | ![](https://raw.githubusercontent.com/Z0ZeroX/Z0ZeroX/master/chess_images/blank.png) | ![](https://raw.githubusercontent.com/Z0ZeroX/Z0ZeroX/master/chess_images/blank.png) | ![](https://raw.githubusercontent.com/Z0ZeroX/Z0ZeroX/master/chess_images/blank.png) |
-| 3 | ![](https://raw.githubusercontent.com/Z0ZeroX/Z0ZeroX/master/chess_images/N.png) | ![](https://raw.githubusercontent.com/Z0ZeroX/Z0ZeroX/master/chess_images/P.png) | ![](https://raw.githubusercontent.com/Z0ZeroX/Z0ZeroX/master/chess_images/blank.png) | ![](https://raw.githubusercontent.com/Z0ZeroX/Z0ZeroX/master/chess_images/P.png) | ![](https://raw.githubusercontent.com/Z0ZeroX/Z0ZeroX/master/chess_images/blank.png) | ![](https://raw.githubusercontent.com/Z0ZeroX/Z0ZeroX/master/chess_images/P.png) | ![](https://raw.githubusercontent.com/Z0ZeroX/Z0ZeroX/master/chess_images/blank.png) | ![](https://raw.githubusercontent.com/Z0ZeroX/Z0ZeroX/master/chess_images/blank.png) |
-| 2 | ![](https://raw.githubusercontent.com/Z0ZeroX/Z0ZeroX/master/chess_images/P.png) | ![](https://raw.githubusercontent.com/Z0ZeroX/Z0ZeroX/master/chess_images/blank.png) | ![](https://raw.githubusercontent.com/Z0ZeroX/Z0ZeroX/master/chess_images/P.png) | ![](https://raw.githubusercontent.com/Z0ZeroX/Z0ZeroX/master/chess_images/blank.png) | ![](https://raw.githubusercontent.com/Z0ZeroX/Z0ZeroX/master/chess_images/blank.png) | ![](https://raw.githubusercontent.com/Z0ZeroX/Z0ZeroX/master/chess_images/blank.png) | ![](https://raw.githubusercontent.com/Z0ZeroX/Z0ZeroX/master/chess_images/P.png) | ![](https://raw.githubusercontent.com/Z0ZeroX/Z0ZeroX/master/chess_images/P.png) |
-| 1 | ![](https://raw.githubusercontent.com/Z0ZeroX/Z0ZeroX/master/chess_images/R.png) | ![](https://raw.githubusercontent.com/Z0ZeroX/Z0ZeroX/master/chess_images/blank.png) | ![](https://raw.githubusercontent.com/Z0ZeroX/Z0ZeroX/master/chess_images/B.png) | ![](https://raw.githubusercontent.com/Z0ZeroX/Z0ZeroX/master/chess_images/blank.png) | ![](https://raw.githubusercontent.com/Z0ZeroX/Z0ZeroX/master/chess_images/K.png) | ![](https://raw.githubusercontent.com/Z0ZeroX/Z0ZeroX/master/chess_images/B.png) | ![](https://raw.githubusercontent.com/Z0ZeroX/Z0ZeroX/master/chess_images/N.png) | ![](https://raw.githubusercontent.com/Z0ZeroX/Z0ZeroX/master/chess_images/R.png) |
+<!-- BEGIN CHESS BOARD -->
 
-#### **BLACK (solid):** It's your move... to choose _where_ to move...
+<!-- END CHESS BOARD -->
 
-| FROM | TO - _just click one of the links_ :) |
-| ---- | -- |
-| **A7** | [A5](https://github.com/Z0ZeroX/Z0ZeroX/issues/new?title=chess%7Cmove%7Ca7a5%7C1&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) , [A6](https://github.com/Z0ZeroX/Z0ZeroX/issues/new?title=chess%7Cmove%7Ca7a6%7C1&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) |
-| **B6** | [B5](https://github.com/Z0ZeroX/Z0ZeroX/issues/new?title=chess%7Cmove%7Cb6b5%7C1&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) |
-| **B8** | [A6](https://github.com/Z0ZeroX/Z0ZeroX/issues/new?title=chess%7Cmove%7Cb8a6%7C1&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) , [C6](https://github.com/Z0ZeroX/Z0ZeroX/issues/new?title=chess%7Cmove%7Cb8c6%7C1&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) , [D7](https://github.com/Z0ZeroX/Z0ZeroX/issues/new?title=chess%7Cmove%7Cb8d7%7C1&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) |
-| **C5** | [C4](https://github.com/Z0ZeroX/Z0ZeroX/issues/new?title=chess%7Cmove%7Cc5c4%7C1&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) |
-| **C8** | [A6](https://github.com/Z0ZeroX/Z0ZeroX/issues/new?title=chess%7Cmove%7Cc8a6%7C1&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) , [B7](https://github.com/Z0ZeroX/Z0ZeroX/issues/new?title=chess%7Cmove%7Cc8b7%7C1&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) , [D7](https://github.com/Z0ZeroX/Z0ZeroX/issues/new?title=chess%7Cmove%7Cc8d7%7C1&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) , [E6](https://github.com/Z0ZeroX/Z0ZeroX/issues/new?title=chess%7Cmove%7Cc8e6%7C1&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) , [F5](https://github.com/Z0ZeroX/Z0ZeroX/issues/new?title=chess%7Cmove%7Cc8f5%7C1&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) , [G4](https://github.com/Z0ZeroX/Z0ZeroX/issues/new?title=chess%7Cmove%7Cc8g4%7C1&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) , [H3](https://github.com/Z0ZeroX/Z0ZeroX/issues/new?title=chess%7Cmove%7Cc8h3%7C1&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) |
-| **D6** | [D5](https://github.com/Z0ZeroX/Z0ZeroX/issues/new?title=chess%7Cmove%7Cd6d5%7C1&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) |
-| **D8** | [C7](https://github.com/Z0ZeroX/Z0ZeroX/issues/new?title=chess%7Cmove%7Cd8c7%7C1&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) , [D7](https://github.com/Z0ZeroX/Z0ZeroX/issues/new?title=chess%7Cmove%7Cd8d7%7C1&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) , [E7](https://github.com/Z0ZeroX/Z0ZeroX/issues/new?title=chess%7Cmove%7Cd8e7%7C1&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) , [E8](https://github.com/Z0ZeroX/Z0ZeroX/issues/new?title=chess%7Cmove%7Cd8e8%7C1&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) , [F6](https://github.com/Z0ZeroX/Z0ZeroX/issues/new?title=chess%7Cmove%7Cd8f6%7C1&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) , [G5](https://github.com/Z0ZeroX/Z0ZeroX/issues/new?title=chess%7Cmove%7Cd8g5%7C1&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) , [H4](https://github.com/Z0ZeroX/Z0ZeroX/issues/new?title=chess%7Cmove%7Cd8h4%7C1&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) |
-| **F7** | [E6](https://github.com/Z0ZeroX/Z0ZeroX/issues/new?title=chess%7Cmove%7Cf7e6%7C1&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) , [E7](https://github.com/Z0ZeroX/Z0ZeroX/issues/new?title=chess%7Cmove%7Cf7e7%7C1&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) , [E8](https://github.com/Z0ZeroX/Z0ZeroX/issues/new?title=chess%7Cmove%7Cf7e8%7C1&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) , [F6](https://github.com/Z0ZeroX/Z0ZeroX/issues/new?title=chess%7Cmove%7Cf7f6%7C1&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) , [G7](https://github.com/Z0ZeroX/Z0ZeroX/issues/new?title=chess%7Cmove%7Cf7g7%7C1&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) |
-| **F8** | [E7](https://github.com/Z0ZeroX/Z0ZeroX/issues/new?title=chess%7Cmove%7Cf8e7%7C1&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) , [G7](https://github.com/Z0ZeroX/Z0ZeroX/issues/new?title=chess%7Cmove%7Cf8g7%7C1&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) , [H6](https://github.com/Z0ZeroX/Z0ZeroX/issues/new?title=chess%7Cmove%7Cf8h6%7C1&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) |
-| **G6** | [G5](https://github.com/Z0ZeroX/Z0ZeroX/issues/new?title=chess%7Cmove%7Cg6g5%7C1&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) |
-| **G8** | [E7](https://github.com/Z0ZeroX/Z0ZeroX/issues/new?title=chess%7Cmove%7Cg8e7%7C1&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) , [F6](https://github.com/Z0ZeroX/Z0ZeroX/issues/new?title=chess%7Cmove%7Cg8f6%7C1&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) , [H6](https://github.com/Z0ZeroX/Z0ZeroX/issues/new?title=chess%7Cmove%7Cg8h6%7C1&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) |
-| **H5** | [H4](https://github.com/Z0ZeroX/Z0ZeroX/issues/new?title=chess%7Cmove%7Ch5h4%7C1&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) |
-| **H8** | [H6](https://github.com/Z0ZeroX/Z0ZeroX/issues/new?title=chess%7Cmove%7Ch8h6%7C1&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) , [H7](https://github.com/Z0ZeroX/Z0ZeroX/issues/new?title=chess%7Cmove%7Ch8h7%7C1&body=Just+push+%27Submit+new+issue%27.+You+don%27t+need+to+do+anything+else.) |
+**<!-- BEGIN TURN -->white<!-- END TURN --> (solid): It's your turn to move! Choose one from the following table:**
+
+<!-- BEGIN MOVES LIST -->
+
+<!-- END MOVES LIST -->
 
 Ask a friend to take the next move: [Share on Twitter...](https://twitter.com/share?text=I'm+playing+chess+on+a+GitHub+Profile+Readme!+Can+you+please+take+the+next+move+at+https://github.com/Z0ZeroX)
 
 <details>
-  <summary>How this works</summary>
+  <summary>
+    
+#### How this works
+    
+  </summary>
 
 When you click a link, it opens a GitHub Issue with the required pre-populated text. Just push "Create New Issue". That will trigger a [GitHub Actions](https://github.blog/2020-07-03-github-action-hero-casey-lee/#getting-started-with-github-actions) workflow that'll update my GitHub Profile _README.md_ with the new state of the board.
 </details>
@@ -53,24 +38,19 @@ When you click a link, it opens a GitHub Issue with the required pre-populated t
 Raise an [issue](https://github.com/Z0ZeroX/Z0ZeroX/issues), and include the text _cc @Z0ZeroX_.
 
 <details>
-  <summary>Last 5 moves in this game</summary>
+  <summary><b>Last 5 moves in this game:</b></summary>
 
-| Move  | Who |
-| ----- | --- |
-|  to  | [@Z0ZeroX](https://github.com/Z0ZeroX) |
-| B7 to B6 | [@DTan084](https://github.com/DTan084) |
-| F2 to F3 | [@Z0ZeroX](https://github.com/Z0ZeroX) |
-| C7 to C5 | [@DTan084](https://github.com/DTan084) |
-| E3 to E4 | [@Z0ZeroX](https://github.com/Z0ZeroX) |
+<!-- BEGIN LAST MOVES -->
+
+<!-- END LAST MOVES -->
 </details>
 
 <details>
-  <summary>Top 10 Leaderboard: Most moves across all games.</summary>
+  <summary><b>Top 10 Leaderboard: Most moves across all games:</b></summary>
 
-| Moves | Who |
-| ----- | --- |
-| 8 | [@Z0ZeroX](https://github.com/Z0ZeroX) |
-| 7 | [@DTan084](https://github.com/DTan084) |
+<!-- BEGIN TOP MOVES -->
+
+<!-- END TOP MOVES -->
 </details>
 
   ---
