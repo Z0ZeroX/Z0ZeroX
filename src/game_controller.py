@@ -59,7 +59,8 @@ def handle_move(issue, issue_author, action, settings):
     issue.create_comment(settings['comments']['successful_move'].format(author=issue_author, move=valid_move))
     issue.edit(state='closed', labels=issue_labels)
 
-    update_last_moves(valid_move + ': ' + issue_author)
+    color_code = 'W' if gameboard.turn == chess.WHITE else 'B'
+    update_last_moves(f"{valid_move}:{issue_author}:{color_code}")
     update_top_moves(issue_author)
 
     game, gameboard = execute_move(game, gameboard, valid_move, issue_author)

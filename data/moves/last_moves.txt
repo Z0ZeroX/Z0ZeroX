@@ -1,11 +1,11 @@
-f6e4: @Z0ZeroX
-e2e4: @Lalit64
-b7b5: @Z0ZeroX
-c1b2: @DTan084
-g8f6: @ShahzaibAhmad05
-c3a4: @Z0ZeroX
-e7e5: @daveragos
-b2b3: @DTan084
-a7a6: @lucasew
-b1c3: @DTan084
+f6e4:@Z0ZeroX:B
+e2e4:@Lalit64:W
+b7b5:@Z0ZeroX:B
+c1b2:@DTan084:W
+g8f6:@ShahzaibAhmad05:B
+c3a4:@Z0ZeroX:W
+e7e5:@daveragos:B
+b2b3:@DTan084:W
+a7a6:@lucasew:B
+b1c3:@DTan084:W
 Start game: @Z0ZeroX

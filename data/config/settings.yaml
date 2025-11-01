@@ -18,10 +18,10 @@ comments:
 issues:
   link: "https://github.com/{repo}/issues/new?{params}"
   move:
-    body: "Please do not change the title. Just click \"Submit new issue\". You don't need to do anything else :D"
+    body: "Please do not change the title. Just click \"Submit new issue\". You don't need to do anything else :D\n\n⏳ Please wait about 30 seconds to 1 minute for the move to be processed."
     title: "Chess: Move {source} to {dest}"
   new_game:
-    body: "Please do not change the title. Just click \"Submit new issue\". You don't need to do anything else :D"
+    body: "Please do not change the title. Just click \"Submit new issue\". You don't need to do anything else :D\n\n⏳ Please wait about 30 seconds to 1 minute for the game to start."
     title: "Chess: Start new game"
 
 markers:

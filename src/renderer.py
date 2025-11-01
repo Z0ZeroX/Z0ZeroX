@@ -62,6 +62,9 @@ def render_moves_list(board):
     if board.is_check():
         markdown += "**CHECK!** Choose your move wisely!\n"
 
+    color_icon, color_name = (":white_circle:", "WHITE (solid)") if board.turn == chess.WHITE else (":black_circle:", "BLACK (hollow)")
+    markdown += f"{color_icon} {color_name}: It's your turn to move! Choose one from the following table:\n\n"
+
     markdown += "|  FROM  | TO (Just click a link!) |\n"
     markdown += "| :----: | :---------------------- |\n"
 
@@ -94,10 +97,15 @@ def render_last_moves():
         if match_obj is not None:
             source = match_obj.group(1).upper()
             dest = match_obj.group(2).upper()
-
-            markdown += "| `" + source + "` to `" + dest + "` | " + create_markdown_link(parts[1], "https://github.com/" + parts[1].lstrip()[1:]) + " |\n"
+            
+            color_icon = ''
+            if len(parts) >= 3:
+                color_code = parts[2].strip()
+                color_icon = ' ⚪' if color_code == 'W' else ' ⚫'
+            
+            markdown += "| `" + source + "` to `" + dest + "` | " + create_markdown_link(parts[1].strip(), "https://github.com/" + parts[1].strip()[1:]) + color_icon + "|\n"
         else:
-            markdown += "| `" + parts[0] + "` | " + create_markdown_link(parts[1], "https://github.com/" + parts[1].lstrip()[1:]) + " |\n"
+            markdown += "| `" + parts[0] + "` | " + create_markdown_link(parts[1].strip(), "https://github.com/" + parts[1].strip()[1:]) + " |\n"
 
     return markdown + "\n"
 

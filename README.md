@@ -9,7 +9,8 @@
 
 ## ZenT's Community Chess Tournament
 
-**Game is in progress.** This is open to ANYONE to play the next move. That's the point. :wave:  It's your turn! 
+> **Game is in progress!** Anyone can play the next move :wave:  
+> **Your Turn:** Move a <!-- BEGIN TURN --> WHITE<!-- END TURN --> (hollow) piece below!
 
 <!-- BEGIN CHESS BOARD -->
 |   | A | B | C | D | E | F | G | H |   |
@@ -25,9 +26,9 @@
 |   | **A** | **B** | **C** | **D** | **E** | **F** | **G** | **H** |   |
 <!-- END CHESS BOARD -->
 
-**<!-- BEGIN TURN -->WHITE<!-- END TURN --> (solid): It's your turn to move! Choose one from the following table:**
-
 <!-- BEGIN MOVES LIST -->
+**⚪ WHITE (solid): It's your turn to move! Choose one from the following table:**
+
 |  FROM  | TO (Just click a link!) |
 | :----: | :---------------------- |
 | **A1** | [B1](https://github.com/Z0ZeroX/Z0ZeroX/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+A1+to+B1), [C1](https://github.com/Z0ZeroX/Z0ZeroX/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+A1+to+C1) |
@@ -69,11 +70,11 @@ Raise an [issue](https://github.com/Z0ZeroX/Z0ZeroX/issues), and include the tex
 
 | Move | Author |
 | :--: | :----- |
-| `F6` to `E4` | [ @Z0ZeroX](https://github.com/Z0ZeroX) |
-| `E2` to `E4` | [ @Lalit64](https://github.com/Lalit64) |
-| `B7` to `B5` | [ @Z0ZeroX](https://github.com/Z0ZeroX) |
-| `C1` to `B2` | [ @DTan084](https://github.com/DTan084) |
-| `G8` to `F6` | [ @ShahzaibAhmad05](https://github.com/ShahzaibAhmad05) |
+| `F6` to `E4` | [ @Z0ZeroX](https://github.com/Z0ZeroX) ⚪|
+| `E2` to `E4` | [ @Lalit64](https://github.com/Lalit64) ⚫|
+| `B7` to `B5` | [ @Z0ZeroX](https://github.com/Z0ZeroX) ⚪|
+| `C1` to `B2` | [ @DTan084](https://github.com/DTan084) ⚫|
+| `G8` to `F6` | [ @ShahzaibAhmad05](https://github.com/ShahzaibAhmad05) ⚫|
 
 <!-- END LAST MOVES -->
 </details>

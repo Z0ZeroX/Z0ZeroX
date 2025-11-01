@@ -23,10 +23,16 @@ def parse_issue(title):
 
 def create_new_game(repo_owner):
     game = chess.pgn.Game()
-    game.headers['Event'] = repo_owner + '\'s Online Open Chess Tournament'
+    game.headers['Event'] = f"@{repo_owner}'s Online Open Chess Tournament"
     game.headers['Site'] = 'https://github.com/' + os.environ['GITHUB_REPOSITORY']
     game.headers['Date'] = datetime.now().strftime('%Y.%m.%d')
     game.headers['Round'] = '1'
+    game.headers['White'] = 'Collaborative Team White'
+    game.headers['Black'] = 'Collaborative Team Black'
+    game.headers['Result'] = '*'
+    game.headers['GameType'] = 'Collaborative'
+    game.headers['WhitePlayers'] = ''
+    game.headers['BlackPlayers'] = ''
     return game
 
 
@@ -57,9 +63,23 @@ def is_valid_move(gameboard, move_uci):
 
 def execute_move(game, gameboard, move_uci, player):
     move = chess.Move.from_uci(move_uci)
+    
+    is_white_turn = gameboard.turn == chess.WHITE
+    team_key = 'WhitePlayers' if is_white_turn else 'BlackPlayers'
+    
+    current_players = game.headers.get(team_key, '')
+    if player not in current_players:
+        if current_players:
+            game.headers[team_key] = current_players + f", {player}"
+        else:
+            game.headers[team_key] = player
+    
     gameboard.push(move)
-    game.end().add_main_variation(move, comment=player)
+    
+    game.end().add_main_variation(move, comment=f"Player: {player}")
+    
     game.headers['Result'] = gameboard.result()
+    
     return game, gameboard
 
 

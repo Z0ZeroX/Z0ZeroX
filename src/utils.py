@@ -14,7 +14,7 @@ PATHS = {
     'top_moves': 'data/moves/top_moves.txt',
     'last_moves': 'data/moves/last_moves.txt',
     'current_game': 'games/current.pgn',
-    'archived_games': 'games/archived/',
+    'archived_games': 'games/history/',
     'readme': 'README.md'
 }
 
