@@ -27,8 +27,8 @@ def render_board_to_markdown(board):
         if board.turn == chess.BLACK:
             columns = reversed(columns)
 
-        for elem in columns:
-            markdown += "<img src=\"{}\" width=50px> | ".format(PIECE_IMAGES.get(elem, "???"))
+        for piece in columns:
+            markdown += "<img src=\"{}\" width=50px> | ".format(PIECE_IMAGES.get(piece, "???"))
 
         markdown += "**" + str(9 - row) + "** |\n"
 
@@ -93,10 +93,10 @@ def render_last_moves():
 
         counter += 1
 
-        match_obj = re.search('([A-H][1-8])([A-H][1-8])', line, re.I)
-        if match_obj is not None:
-            source = match_obj.group(1).upper()
-            dest = match_obj.group(2).upper()
+        move_match = re.search('([A-H][1-8])([A-H][1-8])', line, re.I)
+        if move_match is not None:
+            source = move_match.group(1).upper()
+            dest = move_match.group(2).upper()
             
             color_icon = ''
             if len(parts) >= 3:
@@ -112,15 +112,15 @@ def render_last_moves():
 
 def render_top_moves():
     settings = load_settings()
-    dictionary = read_top_moves()
+    player_moves_count = read_top_moves()
 
     markdown = "\n"
     markdown += "| Total moves |  User  |\n"
     markdown += "| :---------: | :----- |\n"
 
     max_entries = settings['misc']['max_top_moves']
-    for key, val in sorted(dictionary.items(), key=lambda x: x[1], reverse=True)[:max_entries]:
-        markdown += "| {} | {} |\n".format(val, create_markdown_link(key, "https://github.com/" + key[1:]))
+    for username, move_count in sorted(player_moves_count.items(), key=lambda x: x[1], reverse=True)[:max_entries]:
+        markdown += "| {} | {} |\n".format(move_count, create_markdown_link(username, "https://github.com/" + username[1:]))
 
     return markdown + "\n"
 
@@ -132,5 +132,5 @@ def _create_issue_link(source, dest_list):
         repo=os.environ["GITHUB_REPOSITORY"],
         params=urlencode(settings['issues']['move'], safe="{}"))
 
-    ret = [create_markdown_link(dest, issue_link.format(source=source, dest=dest)) for dest in sorted(dest_list)]
-    return ", ".join(ret)
+    move_links = [create_markdown_link(dest, issue_link.format(source=source, dest=dest)) for dest in sorted(dest_list)]
+    return ", ".join(move_links)

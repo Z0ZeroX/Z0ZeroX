@@ -12,10 +12,10 @@ def parse_issue(title):
         return (Action.NEW_GAME, None)
 
     if 'chess: move' in title.lower():
-        match_obj = re.match('Chess: Move ([A-H][1-8]) to ([A-H][1-8])', title, re.I)
-        if match_obj:
-            source = match_obj.group(1)
-            dest = match_obj.group(2)
+        move_match = re.match('Chess: Move ([A-H][1-8]) to ([A-H][1-8])', title, re.I)
+        if move_match:
+            source = move_match.group(1)
+            dest = move_match.group(2)
             return (Action.MOVE, (source + dest).lower())
 
     return (Action.UNKNOWN, None)

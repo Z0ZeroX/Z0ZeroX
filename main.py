@@ -19,9 +19,9 @@ def main():
         if not success:
             sys.exit(error_message)
             
-    except Exception as e:
-        print(f"Error: {str(e)}")
-        sys.exit(f"Fatal error: {str(e)}")
+    except Exception as error:
+        print(f"Error: {str(error)}")
+        sys.exit(f"Fatal error: {str(error)}")
 
 
 if __name__ == '__main__':

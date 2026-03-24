@@ -9,26 +9,26 @@ def update_top_moves(user):
     os.makedirs(os.path.dirname(PATHS['top_moves']), exist_ok=True)
     
     if not os.path.exists(PATHS['top_moves']):
-        dictionary = {}
+        player_moves_count = {}
     else:
         with open(PATHS['top_moves'], 'r') as file:
-            contents = file.read()
-            dictionary = ast.literal_eval(contents) if contents else {}
+            file_content = file.read()
+            player_moves_count = ast.literal_eval(file_content) if file_content else {}
 
-    if user not in dictionary:
-        dictionary[user] = 1
+    if user not in player_moves_count:
+        player_moves_count[user] = 1
     else:
-        dictionary[user] += 1
+        player_moves_count[user] += 1
 
     with open(PATHS['top_moves'], 'w') as file:
-        file.write(str(dictionary))
+        file.write(str(player_moves_count))
 
 
 def update_last_moves(line):
     with open(PATHS['last_moves'], 'r+') as last_moves:
-        content = last_moves.read()
+        existing_content = last_moves.read()
         last_moves.seek(0, 0)
-        last_moves.write(line.rstrip('\r\n') + '\n' + content)
+        last_moves.write(line.rstrip('\r\n') + '\n' + existing_content)
 
 
 def get_last_player_and_move():
@@ -57,7 +57,7 @@ def create_new_last_moves_file(initial_content):
 def archive_current_game():
     if not os.path.exists(PATHS['current_game']):
         return
-    timestamp = datetime.now().strftime(PATHS['archived_games'] + 'game-%Y%m%d-%H%M%S.pgn')
+    timestamp = datetime.now().strftime(PATHS['archived_games'] + 'game-%Y%m%d.pgn')
     os.rename(PATHS['current_game'], timestamp)
     if os.path.exists(PATHS['last_moves']):
         os.remove(PATHS['last_moves'])
@@ -83,8 +83,8 @@ def read_top_moves():
     if not os.path.exists(PATHS['top_moves']):
         return {}
     with open(PATHS['top_moves'], 'r') as file:
-        content = file.read().strip()
-        return ast.literal_eval(content) if content else {}
+        file_content = file.read().strip()
+        return ast.literal_eval(file_content) if file_content else {}
 
 
 def read_last_moves():

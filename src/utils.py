@@ -31,7 +31,7 @@ PIECE_IMAGES = {
     "Q": "assets/chess/Q.png",
     "K": "assets/chess/K.png",
     "P": "assets/chess/P.png",
-    ".": "assets/blank.png"
+    ".": "assets/chess/blank.png"
 }
 
 WIN_MESSAGES = {
